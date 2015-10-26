@@ -22,7 +22,7 @@ cd /
 
 # On extrait les répertoires archivés en ne mettant PAS le / devant, comme expliqué tout à l'heure.
 
-tar -xvzf /votre_support/backup.tar.gz "etc" "root" "home" "var" "usr/local"
+tar -xvzf /backup/backup.tar.gz "etc" "root" "home" "var" "usr/local"
 
 echo "------------------------------------------------------";
 
